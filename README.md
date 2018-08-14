@@ -26,6 +26,4 @@ Com muito orgulho que o ***AraraMakerSpace*** junto com a ***Protrader*** oferec
 * MySQL   
 
 #### Quem pode fazer?
-O curso é para qualquer um que deseja aprender um pouco sobre uma das áreas mais importantes da atualidade, pois Data Science é ultilizada na maioria das grandes  empresas como Facebook, Google, Amazon e etc...
-
-Se você quer testar seus conhecimentos, aprender um pouco de python, resolver problemas e criar algorítmos que resolve problemas pra você esse é o curso ideal.
+O curso é para qualquer um que deseja começar a aprender sobre uma das áreas mais importantes da atualidade, pois Data Science é ultilizada na maioria das grandes  empresas como Facebook, Google, Amazon e etc...
