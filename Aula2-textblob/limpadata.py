@@ -1,4 +1,6 @@
-def cleanData(self, tweets):
+import re
+
+def cleanData(tweets):
         tweets['tweetos'] = ''
         # add tweetos first part
         for i in range(len(tweets['text'])):
