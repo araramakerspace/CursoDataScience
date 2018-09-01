@@ -1,21 +1,29 @@
 age,sex,bmi,children,smoker,region,charges
+19,female,27.9,0,yes,NaN,16884.924
 19,female,27.9,0,yes,southwest,16884.924
 18,male,33.77,1,no,southeast,1725.5523
+NaN,male,33.77,1,no,southeast,1725.5523
 28,male,33,3,no,southeast,4449.462
+28,male,33,3,no, ,4449.462
 33,male,22.705,0,no,northwest,21984.47061
 32,male,28.88,0,no,northwest,3866.8552
+32,male,NaN,0,no,NaN,3866.8552
 31,female,25.74,0,no,southeast,3756.6216
 46,female,33.44,1,no,southeast,8240.5896
+46,female,33.44,1, ,southeast,8240.5896
+46,female,NaN.44,1,no,southeast,8240.5896
 37,female,27.74,3,no,northwest,7281.5056
 37,male,29.83,2,no,northeast,6406.4107
 60,female,25.84,0,no,northwest,28923.13692
 25,male,26.22,0,no,northeast,2721.3208
+25,NaN,26.22,0,no,northeast,2721.3208
 62,female,26.29,0,yes,southeast,27808.7251
 23,male,34.4,0,no,southwest,1826.843
 56,female,39.82,0,no,southeast,11090.7178
 27,male,42.13,0,yes,southeast,39611.7577
 19,male,24.6,1,no,southwest,1837.237
 52,female,30.78,1,no,northeast,10797.3362
+52,female,30.78,1,no, ,10797.3362
 23,male,23.845,0,no,northeast,2395.17155
 56,male,40.3,0,no,southwest,10602.385
 30,male,35.3,0,yes,southwest,36837.467
