@@ -18,3 +18,4 @@ Exercícios aula 2
 4- Realize Data Handling para executar uma analise do BMI, relacione suas conclusões com a tabela abaixo
 https://www.vertex42.com/ExcelTemplates/bmi-chart.html
 
+5- Crie um grafico do tipo violino comparando o preço do investimento em saude em relação a região.
