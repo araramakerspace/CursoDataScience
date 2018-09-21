@@ -23,7 +23,8 @@ Com muito orgulho que o ***AraraMakerSpace*** junto com a ***Protrader*** oferec
 * Numpy
 * Scikit learn
 * Matplotlib
-* MySQL   
+* Seaborn
+* Scipy
 
 #### Quem pode fazer?
 O curso é para qualquer um que deseja começar a aprender sobre uma das áreas mais importantes da atualidade, pois Data Science é ultilizada na maioria das grandes  empresas como Facebook, Google, Amazon e etc...
