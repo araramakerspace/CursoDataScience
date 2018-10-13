@@ -1,8 +1,8 @@
 Exercícios aula 2 
 
-1- Carregue o dataset de investimentos em plano de saude (insurance)
+1- Carregue o dataset de investimentos em plano de saúde (insurance)
 + Verifique se existem campos NaN
-+ Remova os campós NaN do dataset
++ Remova os campos NaN do dataset
 + Obtenha os resumos estatísticos de todas as variáveis não categóricas
 
 
@@ -13,9 +13,9 @@ Exercícios aula 2
     Adultos (de 30 a 59 anos)	
     Idosos (a partir de 60 anos)
 
-3- Utilize a função distr_genero para cruzar os dados de fumantes e não fumantes em função do genero.
+3- Utilize a função distr_genero para cruzar os dados de fumantes e não fumantes em função do gênero.
 
-4- Realize Data Handling para executar uma analise do BMI, relacione suas conclusões com a tabela abaixo
+4- Realize Data Handling para executar uma análise do BMI, relacione suas conclusões com a tabela abaixo
 https://www.vertex42.com/ExcelTemplates/bmi-chart.html
 
-5- Crie um grafico do tipo violino comparando o preço do investimento em saude em relação a região.
+5- Crie um gráfico do tipo violino comparando o preço do investimento em saúde em relação a região.
