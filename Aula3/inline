@@ -1,0 +1,282 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import graphviz\n",
+    "from matplotlib import pyplot as plt\n",
+    "import numpy as np\n",
+    "import pandas as pd \n",
+    "import seaborn as sns\n",
+    "import pydotplus\n",
+    "\n",
+    "import io\n",
+    "from scipy import misc\n",
+    "\n",
+    "from sklearn import tree # pack age tree \n",
+    "from sklearn.metrics import accuracy_score # medir % acerto\n",
+    "from sklearn.model_selection import train_test_split # cortar dataset\n",
+    "from sklearn.tree import DecisionTreeClassifier, export_graphviz # arvore de decixao classificacao e graphviz para visualizar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('data.csv')\n",
+    "df.head(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "train, test = train_test_split(df, test_size=round(len(df)*0.3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# falar de overfitting comparando pagode funk e etc\n",
+    "# quanto maior o valor menor a arvore \n",
+    "tree = DecisionTreeClassifier(min_samples_split=100)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "tree"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import graphviz\n",
+    "from matplotlib import pyplot as plt\n",
+    "import numpy as np\n",
+    "import pandas as pd \n",
+    "import seaborn as sns\n",
+    "import pydotplus\n",
+    "\n",
+    "import io\n",
+    "from scipy import misc\n",
+    "\n",
+    "from sklearn import tree # pack age tree \n",
+    "from sklearn.metrics import accuracy_score # medir % acerto\n",
+    "from sklearn.model_selection import train_test_split # cortar dataset\n",
+    "from sklearn.tree import DecisionTreeClassifier, export_graphviz # arvore de decixao classificacao e graphviz para visualizar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import graphviz\n",
+    "from matplotlib import pyplot as plt\n",
+    "import numpy as np\n",
+    "import pandas as pd \n",
+    "import seaborn as sns\n",
+    "import pydotplus\n",
+    "\n",
+    "import io\n",
+    "from scipy import misc\n",
+    "\n",
+    "from sklearn import tree # pack age tree \n",
+    "from sklearn.metrics import accuracy_score # medir % acerto\n",
+    "from sklearn.model_selection import train_test_split # cortar dataset\n",
+    "from sklearn.tree import DecisionTreeClassifier, export_graphviz # arvore de decixao classificacao e graphviz para visualizar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('data.csv')\n",
+    "df.head(3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "train, test = train_test_split(df, test_size=round(len(df)*0.3))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print('Tamanho do set de treino: {},\\nTamanho teste: {}'.format(len(train), len(test) ))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# falar de overfitting comparando pagode funk e etc\n",
+    "# quanto maior o valor menor a arvore \n",
+    "tree = DecisionTreeClassifier(min_samples_split=100)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "tree"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "features = [\"danceability\", \"loudness\", \"valence\", \"energy\", \"instrumentalness\", \"acousticness\", \"key\", \"speechiness\", \"duration_ms\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x_train = train[features]\n",
+    "y_train = train['target']\n",
+    "\n",
+    "x_test = test[features]\n",
+    "y_test = test['target']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dct = tree.fit(x_train, y_train) # scikit fez uma decision tree"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# visualizando\n",
+    "\n",
+    "def showTree(tree, features, path):\n",
+    "    file=io.StringIO()\n",
+    "    export_graphviz(tree, out_file=file, feature_names=features)\n",
+    "    pydotplus.graph_from_dot_data(file.getvalue()).write_png(path)\n",
+    "    img = misc.imread(path)\n",
+    "    plt.rcParams[\"figure.figsize\"] = (20, 20)\n",
+    "    plt.imshow(img)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#showTree(dct, features, 'minhaprimeiradct.png')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%% time\n",
+    "showTree(dct, features, 'minhaprimeiradct.png')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "%%time\n",
+    "showTree(dct, features, 'minhaprimeiradct.png')"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
