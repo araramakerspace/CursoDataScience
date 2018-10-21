@@ -4,7 +4,6 @@ Com muito orgulho que o ***AraraMakerSpace*** junto com a ***Protrader*** oferec
 
 ![GitHub Logo](https://www.analytixlabs.co.in/assets/images/course/Python2.jpg)
 
-<img src="http://protraderbot.com/images/logo.png" width="100" height="25" />
 <img src="https://scontent.ffln5-1.fna.fbcdn.net/v/t1.0-9/30707271_1235785526558355_8402345710594293760_n.png?_nc_cat=0&oh=622921b1aaf60fceb1328f389684e6f0&oe=5C0BFC0B" width="50" height="50" />
 
 
