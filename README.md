@@ -1,5 +1,5 @@
 # CursoDataScience
-Com muito orgulho que o ***AraraMakerSpace*** junto com a ***Protrader*** oferece o primeiro curso de Data Science na Universidade Federal de Santa Catarina no Campus de Araranguá.
+Material do ***AraraMakerSpace***  para o curso de de Data Science na Universidade Federal de Santa Catarina no Campus de Araranguá.
 
 
 ![GitHub Logo](https://www.analytixlabs.co.in/assets/images/course/Python2.jpg)
@@ -8,13 +8,41 @@ Com muito orgulho que o ***AraraMakerSpace*** junto com a ***Protrader*** oferec
 
 
 #### O que você vai aprender:
-* Como extrair informações úteis em base de dados.
-* Extrair informações importantes da internet (Data Mining).
-* Extrair dados a partir do twitter.
-* Análise de sentimentos.
-* Montar seu dataset.
-* Criar modelos estatísticos e de predição com Machine Learning.
-* Criar modelos de visualização e criação de portifolio.
+Modulo 1: 
++ Introdução a python, DataScience, e Machine Learning
++ Conceito de notebooks e jupyter notebook
++ Numpy
++ Introdução a pandas com pokemons
++ Gráficos em python com notebook e matplotlib
+
+Modulo 2: 
+- Discussões e entendimento de modelos de negócio 
+- Análises explanatórias e estatística aplicada.
+- Entendimento de modelos
+- Data handling 
+- Modelo de dados (tratamento de data missing, outliers)
+- Modelos estatísticos
+- Criação de apresentação de dados com jupyter
+- Microsoft Workflow para data Science
+
+Módulo 3:
+- Introdução a Machine Learning
+- Conjunto de dados
+- Tipos de atributos
+- Aprendizado Supervisionado/ Aprendizado não-supervisionado
+- Técnicas de aprendizado
+- Extração de informções em base de dados
+- Features Selection
+- Decision Tree "classificação de músicas do spotify"
+- Random Forest
+
+Modulo 4:
+- Introdução a Deep Learning e Redes Neurais 
+- Análise de linguagem natural
+- Tokenização
+- Limpeza de dados não estruturados
+- Análise de sentimentos de tweets
+- Análise explanatória com dataset do twitter
 
 #### Quais ferramentas usaremos:
 * Jupyter Notebook
